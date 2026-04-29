@@ -1,0 +1,84 @@
+
+
+# Slide 1: Title
+
+## Helmet Detection System Using HOG and SVM
+
+### Real-Time Web-Based Interface
+
+---
+
+# Slide 2: Introduction
+
+* Road accidents increase due to riders not wearing helmets
+* Manual monitoring is inefficient and not scalable
+* Need for automated real-time helmet detection system
+* Machine learning-based solution proposed
+
+
+---
+
+# Slide 3: System Overview
+
+* Computer vision-based helmet detection
+* Uses HOG for feature extraction
+* Uses SVM for classification
+* Flask-based web interface
+* Works on CPU without GPU
+
+
+---
+
+# Slide 4: Image Processing
+
+* Image uploaded through web interface
+* Resized to 64 × 128 resolution
+* Converted to grayscale
+* Pixel normalization
+* Noise reduction applied
+
+
+---
+
+# Slide 5: HOG + PCA
+
+* HOG extracts gradient and edge features
+* Captures structural helmet patterns
+* Generates feature vector
+* PCA: Not specified in the document
+
+
+---
+
+# Slide 6: SVM Backend
+
+* Support Vector Machine classifier
+* Trained using Scikit-learn
+* Classifies Helmet / No Helmet
+* Generates prediction with confidence score
+
+
+---
+
+# Slide 7: Frontend UI + Backend
+
+* HTML/CSS based web interface
+* User uploads image
+* Flask backend processes request
+* API endpoint: /predict
+* Displays detection result
+
+
+---
+
+# Slide 8: Final Conclusion
+
+* HOG + SVM based helmet detection system
+* Real-time web-based interface
+* Works without GPU hardware
+* Achieves ~85% accuracy
+* Lightweight and easy to deploy
+
+
+---
+

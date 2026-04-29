@@ -1,12 +1,12 @@
-# SRKR Canteen Management System
+# SRKR Canteen Queue Management System
 
-A comprehensive web-based canteen management system built with HTML5, CSS3, and JavaScript.
+A comprehensive web-based canteen queue management system built with HTML5, CSS3, and JavaScript.
 
 ## Features
 
-- **Owner Panel**: Menu management, order processing, token generation
-- **Kitchen Dashboard**: Real-time order tracking, status updates
-- **Student Status**: Token-based order lookup and status display
+- **Owner Panel**: Menu management, queue processing, token generation
+- **Kitchen Dashboard**: Real-time queue tracking, status updates
+- **Student Status**: Token-based queue lookup and status display
 
 ## Technology Stack
 
